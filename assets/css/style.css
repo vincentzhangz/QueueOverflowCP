@@ -1,5 +1,5 @@
 .navbar-custom {
-    background-color: #0074b3 !important;
+    background-color: #0077B6 !important;
     color           : #fff !important;
 }
 
@@ -28,4 +28,24 @@
     object-fit: cover;
     width: 100%;
     height: 90.2vh;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: rgba(226, 226, 226, 0.5);
+    padding: 10px;
+    z-index: 99;
+    border-r
 }
